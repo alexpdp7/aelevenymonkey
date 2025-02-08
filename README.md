@@ -35,3 +35,7 @@ I have added transcripts for all Penny Arcade strips that I have linked on my bl
 * https://www.penny-arcade.com/comic/2024/04/08/whackmen
 * https://www.penny-arcade.com/comic/2025/01/03/the-mirror-d-hall
 * https://www.penny-arcade.com/comic/2025/01/08/helldiverinos
+
+### XKCD
+
+It adds a link to the transcript on explain xkcd.

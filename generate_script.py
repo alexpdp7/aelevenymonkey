@@ -19,6 +19,15 @@ class PennyArcade:
         code = pathlib.Path("www.penny-arcade.com.js").read_text()
         return f"penny_arcade_data = {json.dumps(PennyArcade.data())};\n\n{code}\n"
 
+
+class Xkcd:
+    matches = ["https://www.xkcd.com/*", "https://xkcd.com/*"]
+
+    @staticmethod
+    def code():
+        return pathlib.Path("www.xkcd.com.js").read_text()
+
+
 class Collector:
     def __init__(self):
         self.matches = set()
@@ -35,6 +44,7 @@ class Collector:
 def main():
     c = Collector()
     c.collect(PennyArcade)
+    c.collect(Xkcd)
 
     print(textwrap.dedent(
         """
