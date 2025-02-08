@@ -5,7 +5,7 @@ import textwrap
 
 
 class PennyArcade:
-    matches = "https://www.penny-arcade.com/comic/*"
+    matches = ["https://www.penny-arcade.com/comic/*"]
 
     @staticmethod
     def data():
@@ -25,7 +25,7 @@ class Collector:
         self.code = ""
 
     def collect(self, site):
-        self.matches.add(site.matches)
+        self.matches.update(site.matches)
         self.code += site.code()
 
 
