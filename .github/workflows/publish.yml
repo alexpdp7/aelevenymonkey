@@ -1,0 +1,24 @@
+name: Publish
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install uv
+      uses: astral-sh/setup-uv@v5
+    - name: Generate
+      run: |
+        uv run generate_script.py >aelevenymonkey.js
+    - name: Publish
+      run: |
+        git config --global user.email "alex@pdp7.net"
+        git config --global user.name "GitHub Actions"
+        git branch -M gh-pages
+        git add -f aelevenymonkey.js
+        git commit -m 'Deploy'
+        git push --force origin HEAD
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
