@@ -1,4 +1,4 @@
-# alevenymonkey
+# aelevenymonkey
 
 Project to increase accessibility of websites using [violentmonkey](https://violentmonkey.github.io/).
 
