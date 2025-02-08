@@ -37,17 +37,23 @@ def main():
     c.collect(PennyArcade)
 
     print(textwrap.dedent(
-        f"""
+        """
             // ==UserScript==
             // @name        Alevenymonkey
             // @namespace   Violentmonkey Scripts
-            {c.match_block()}
+        """).lstrip())
+
+    print(c.match_block())
+
+    print(textwrap.dedent(
+        """
             // @grant       none
             // @version     1.0
             // @author      -
             // @description 2/8/2025, 5:22:29 PM
             // ==/UserScript==
         """).lstrip())
+
     print(c.code)
 
 
