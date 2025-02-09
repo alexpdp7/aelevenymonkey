@@ -1,3 +1,4 @@
+import datetime
 import json
 import markdown
 import pathlib
@@ -55,12 +56,14 @@ def main():
 
     print(c.match_block())
 
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M")
+
     print(textwrap.dedent(
-        """
+        f"""
             // @grant       none
-            // @version     1.0
+            // @version     {timestamp}
             // @author      -
-            // @description 2/8/2025, 5:22:29 PM
+            // @description Tries to improve accessibility of specific websites
             // ==/UserScript==
         """).lstrip())
 
