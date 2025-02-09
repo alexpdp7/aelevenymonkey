@@ -50,7 +50,7 @@ def main():
     print(textwrap.dedent(
         """
             // ==UserScript==
-            // @name        Alevenymonkey
+            // @name        aelevenymonkey
             // @namespace   Violentmonkey Scripts
         """).lstrip())
 
