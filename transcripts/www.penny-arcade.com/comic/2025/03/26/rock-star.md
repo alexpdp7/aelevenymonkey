@@ -2,9 +2,9 @@
 
 Gabe and Tycho are sitting on the couch. Gabe is playing a game.
 
-Gabe: I gotta show you what I've been doing in AC[^1]: Shadows
+Gabe: I gotta show you what I've been doing in AC: Shadows
 
-[^1]: AC stands for Assassin's Creed
+(Transcription note: AC stands for Assassin's Creed)
 
 Tycho: Like ninja shit?
 
