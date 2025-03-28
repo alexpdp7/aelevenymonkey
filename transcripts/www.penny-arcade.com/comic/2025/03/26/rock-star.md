@@ -26,4 +26,4 @@ Gabe: I've got five different kinds of mossy rock!
 
 Tycho: Do you play the campaign ever?
 
-Gabe: I have to. That's who you get more **rocks**.
+Gabe: I have to. That's how you get more **rocks**.
