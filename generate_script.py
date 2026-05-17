@@ -1,3 +1,4 @@
+import abc
 import datetime
 import json
 import markdown
@@ -5,20 +6,40 @@ import pathlib
 import textwrap
 
 
-class PennyArcade:
-    matches = ["https://www.penny-arcade.com/comic/*"]
+class GenericMarkdown(abc.ABC):
+    @classmethod
+    @abc.abstractmethod
+    def transcripts_pattern(cls):
+        raise NotImplemented()
 
-    @staticmethod
-    def data():
+    @classmethod
+    @abc.abstractmethod
+    def script(cls):
+        raise NotImplemented()
+
+    @classmethod
+    def data(cls):
         data = {}
-        for t in pathlib.Path("transcripts").glob("www.penny-arcade.com/comic/*/*/*/*"):
+        for t in pathlib.Path("transcripts").glob(cls.transcripts_pattern()):
             data["https://" + "/".join(t.parts[1:]).removesuffix(".md")] = markdown.markdown(t.read_text())
         return data
 
-    @staticmethod
-    def code():
-        code = pathlib.Path("www.penny-arcade.com.js").read_text()
-        return f"penny_arcade_data = {json.dumps(PennyArcade.data())};\n\n{code}\n"
+    @classmethod
+    def code(cls):
+        code = pathlib.Path(cls.script()).read_text()
+        return f'data["{cls.__name__}"] = {json.dumps(cls.data())};\n\n{code}\n'
+
+
+class PennyArcade(GenericMarkdown):
+    matches = ["https://www.penny-arcade.com/comic/*"]
+
+    @classmethod
+    def transcripts_pattern(cls):
+        return "www.penny-arcade.com/comic/*/*/*/*"
+
+    @classmethod
+    def script(cls):
+        return "www.penny-arcade.com.js"
 
 
 class Xkcd:
@@ -65,6 +86,8 @@ def main():
             // @author      -
             // @description Tries to improve accessibility of specific websites
             // ==/UserScript==
+
+            data = {{}};
         """).lstrip())
 
     print(c.code)
