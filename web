@@ -1,0 +1,5 @@
+#!/bin/bash
+
+find transcripts/ -name '*.md' | { while read f ; do pandoc $f >$(dirname $f)/$(basename $f .md).html ; done ; }
+cat <(echo \# Transcripts ; echo) <( cd transcripts && find . -name '*.html' -printf '* [%P](%P)\n' | sort) | pandoc >index.html
+mv index.html transcripts/
