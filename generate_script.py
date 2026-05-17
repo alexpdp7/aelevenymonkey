@@ -41,6 +41,17 @@ class PennyArcade(GenericMarkdown):
     def script(cls):
         return "www.penny-arcade.com.js"
 
+class Wumo(GenericMarkdown):
+    matches = ["https://wumo.com/wumo/*"]
+
+    @classmethod
+    def transcripts_pattern(cls):
+        return "wumo.com/wumo/*/*/*"
+
+    @classmethod
+    def script(cls):
+        return "wumo.com.js"
+
 
 class Xkcd:
     matches = ["https://www.xkcd.com/*", "https://xkcd.com/*"]
@@ -66,6 +77,7 @@ class Collector:
 def main():
     c = Collector()
     c.collect(PennyArcade)
+    c.collect(Wumo)
     c.collect(Xkcd)
 
     print(textwrap.dedent(
