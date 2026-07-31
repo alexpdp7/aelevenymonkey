@@ -22,6 +22,7 @@ If you visit a page on a website supported by the script but without a transcrip
 
 See <https://alexpdp7.github.io/aelevenymonkey/transcripts/> for all transcripts.
 
-### XKCD
+### [XKCD](https://xkcd.com/)
 
-It adds a link to the transcript on explain xkcd.
+It adds a link to all xkcd strips to the transcript on explain xkcd.
+(Not all xkcd scripts might have a transcript on explain xkcd.)
