@@ -23,3 +23,9 @@ The card name is "XANQUE". It has a single Bitcoin icon on the top-right, likely
 * Monthly MMR revenue: a dial graph with 102.5% in the center, a blue zone marked as 97% and a green zone marked as 103%.
 
 The card is labelled as 38/102 in a series.
+
+Original strip at <https://www.penny-arcade.com/comic/2021/03/29/cards>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

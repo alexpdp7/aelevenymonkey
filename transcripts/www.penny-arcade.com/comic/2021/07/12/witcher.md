@@ -23,3 +23,9 @@ Close up on Gabe and Tycho talking in an apologetical manner.
 Gabe: Well, yeah. Kinda. A little.
 
 Tycho: There are **some** overlaps.
+
+Original strip at <https://www.penny-arcade.com/comic/2021/07/12/witcher>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

@@ -23,3 +23,9 @@ Tycho: That's... really, **really** sad.
 Gabe: I mean it's not like I set up both decks, and played against myself.
 
 Tycho: That would be way better.
+
+Original strip at <https://www.penny-arcade.com/comic/2021/08/04/digimon-2>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.
