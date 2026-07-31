@@ -1,10 +1,14 @@
 # aelevenymonkey
 
-Project to increase accessibility of websites using [violentmonkey](https://violentmonkey.github.io/).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/)[^violentmonkey] browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.
+
+[^violentmonkey]: Violentmonkey is a browser extension that helps users manage userscripts.
+                  Userscripts are small programs that customize web pages.
 
 ## Installation
 
-* Install Violentmonkey.
+* [Install Violentmonkey](https://violentmonkey.github.io/get-it/).
 * Go to the settings of Violentmonkey.
 * Click "new".
 * Click "install from URL".
@@ -24,5 +28,4 @@ See <https://alexpdp7.github.io/aelevenymonkey/transcripts/> for all transcripts
 
 ### [XKCD](https://xkcd.com/)
 
-It adds a link to all xkcd strips to the transcript on explain xkcd.
-(Not all xkcd scripts might have a transcript on explain xkcd.)
+alevenymonkey adds a link to all xkcd strips to the transcript on explain xkcd.

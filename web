@@ -2,9 +2,9 @@
 
 find transcripts/ -name '*.md' | {
   while read f ; do
-    { echo ; echo $f ; } | sed 's_^transcripts/_Original strip at \<https://_' | sed s/\\.md/\>./ >> $f
+    { echo ; echo $f ; cat site-footer.md ; } | sed 's_^transcripts/_Original strip at \<https://_' | sed s/\\.md/\>./ >> $f
     pandoc $f >$(dirname $f)/$(basename $f .md).html
   done
 }
-cat <(echo \# Transcripts ; echo) <( cd transcripts && find . -name '*.html' -printf '* [%P](%P)\n' | sort) | pandoc >index.html
+cat <(echo \# Transcripts ; echo) <( cd transcripts && find . -name '*.html' -printf '* [%P](%P)\n' | sort) site-footer.md | pandoc >index.html
 mv index.html transcripts/
