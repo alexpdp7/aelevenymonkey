@@ -21,3 +21,9 @@ Gabe is disgusted. Tycho is holding Gabe's shoulders and smiling.
 Tycho: I don't know why you've been cursed this way, to never feel it as God strums the universe. I am one of his strings.
 
 Tycho: Rhythm games are just a bonus.
+
+Original strip at <https://www.penny-arcade.com/comic/2022/06/22/pluckr>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

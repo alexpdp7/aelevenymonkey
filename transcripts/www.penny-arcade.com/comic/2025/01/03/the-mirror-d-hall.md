@@ -19,3 +19,9 @@ The subtitles read:
 "We've lost the young, permanently - and we're terrified of the feral Gen Alpha. But our older users, the ones who are not yet dead, won't really understand what's happening.
 
 Ultimately, investing advertising dollars in our platforms will be a hopeful but ultimately naive act, like flicking a coin into a wishing well."
+
+Original strip at <https://www.penny-arcade.com/comic/2025/01/03/the-mirror-d-hall>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

@@ -27,3 +27,9 @@ Gabe: I've got five different kinds of mossy rock!
 Tycho: Do you play the campaign ever?
 
 Gabe: I have to. That's how you get more **rocks**.
+
+Original strip at <https://www.penny-arcade.com/comic/2025/03/26/rock-star>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

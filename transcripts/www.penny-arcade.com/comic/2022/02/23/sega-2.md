@@ -23,3 +23,9 @@ Gabe: I forgot to mention: I don't read game news sites anymore. I **only** read
 Tycho looks sad.
 
 Tycho: Well, it was a good run.
+
+Original strip at <https://www.penny-arcade.com/comic/2022/02/23/sega-2>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.

@@ -24,3 +24,9 @@ Gabe and Tycho continue in the couch, and they are side-eyeing each other.
 Gabe: I got it 'cause I like Spider-Man!
 
 Tycho: No. I'm right on this one.
+
+Original strip at <https://www.penny-arcade.com/comic/2026/08/12/brokon>.
+
+This page is part of [aelevenymonkey](https://github.com/alexpdp7/aelevenymonkey).
+aelevenymonkey is a user script for the [Violentmonkey](https://violentmonkey.github.io/) browser extension.
+aelevenymonkey tries to increase the accesibility of websites, mostly by helping create transcripts and add them to pages such as webcomics.
