@@ -1,7 +1,7 @@
 # First panel
 
 Gabe and Tycho are sitting on a couch.
-Gabe is sad and playing with a game controll.er
+Gabe is sad and playing with a game controller.
 Tycho speaks smugly with his eyes closed.
 
 Gabe: Why did I buy Marvel Tokon?
